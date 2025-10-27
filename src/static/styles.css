@@ -87,6 +87,21 @@ section h3 {
   border-radius: 3px;
   font-size: 14px;
   color: #1565c0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #e57373;
+  margin-left: 8px;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.delete-participant:hover {
+  color: #f44336;
 }
 
 .activity-card .participants-section {
